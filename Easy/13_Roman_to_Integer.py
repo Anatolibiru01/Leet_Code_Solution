@@ -9,7 +9,7 @@ class Solution:
         total = 0
         prev_value = 0
 
-        for char in reversed(s):  # Start from the right
+        for char in reversed(s):
             current_value = roman_map[char]
 
             if current_value < prev_value:
