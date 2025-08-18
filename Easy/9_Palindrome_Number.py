@@ -3,7 +3,6 @@ class Solution:
         s = str(x)
         return s == s[::-1]
 
-
         # inaproprate answer
         # s = str(x)
         # r = []
@@ -16,4 +15,3 @@ class Solution:
         #     return False
         # else:
         #     return True
-print(isPalindrome(121))
