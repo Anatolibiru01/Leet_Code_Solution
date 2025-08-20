@@ -15,3 +15,19 @@ class Solution:
         #     return False
         # else:
         #     return True
+    # c++ version
+# class Solution {
+# public:
+#     bool isPalindrome(int x) {
+#     {
+#         string s;
+#         string reverse_s = "";
+#         s = to_string(x);
+#         for (int i = (s.length() - 1); i >= 0; i--)
+#         {
+#             reverse_s += s[i];
+#         }
+#         return s == reverse_s;
+#     }
+#     }
+# };
