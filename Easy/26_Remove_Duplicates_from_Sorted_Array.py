@@ -6,6 +6,7 @@ class Solution:
                 nums[k] = nums[i]
                 k += 1
             else:
+                
                 continue
         return k
     
