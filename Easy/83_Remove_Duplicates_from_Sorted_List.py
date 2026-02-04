@@ -4,6 +4,8 @@ class ListNode:
         self.val = val
         self.next = next
 
+
+class Solution:
     def deleteDuplicates(self, head):
         current = head
         while current and current.next():
